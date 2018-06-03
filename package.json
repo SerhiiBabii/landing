@@ -1,0 +1,29 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "This is landing tutorial for students",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^4.0.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^1.2.3",
+    "gulp-sass": "^4.0.1",
+    "gulp.spritesmith": "^6.9.0",
+    "rimraf": "^2.6.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SerhiiBabii/landing.git"
+  },
+  "author": "Serhii Babii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SerhiiBabii/landing/issues"
+  },
+  "homepage": "https://github.com/SerhiiBabii/landing#readme"
+}

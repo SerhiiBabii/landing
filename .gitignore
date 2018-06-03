@@ -1,6 +1,6 @@
 .idea/
 built
-nodu_modules
+node_modules
 npm-debug.log
 
 ### Windows template
