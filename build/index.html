@@ -18,7 +18,7 @@
       <div class="container">
         <div class="header__bottom">
           <div class="logo"><img class="logo__picture" src="images/logo.png" alt="Logo"></div>
-          <nav class="nav"><a class="nav__link nav__link--active" href="#">Home</a><a class="nav__link" href="#">About us</a><a class="nav__link" href="#">Our approch</a><a class="nav__link" href="#">Our work</a>
+          <nav class="nav"><a class="nav__link nav__link--active" href="#" data-link="header">Home</a><a class="nav__link" href="#" data-link="about">About us</a><a class="nav__link" href="#" data-link="approach">Our approch</a><a class="nav__link" href="#" data-link="work">Our work</a>
           </nav><a class="button header__button button--red" href="#">Free Consultation</a>
         </div>
       </div>
@@ -164,9 +164,9 @@
               
             </div>
             <div class="form__fields">
-              <input class="form__input" type="text" placeholder="Your Name">
-              <input class="form__input" type="text" placeholder="Contact Number">
-              <input class="form__input" type="text" placeholder="Contact Name">
+              <input class="form__input" type="text" placeholder="Your Name" data-valid="required">
+              <input class="form__input" type="email" placeholder="Email" data-valid="required" data-email>
+              <input class="form__input" type="text" placeholder="Contact Number" data-valid="required" data-number>
             </div>
             <button class="button button--text-uppercase button--red" type="submit">Submit now</button>
           </form>
